@@ -1,0 +1,209 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.ignorePath": ".prettierignore",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "alias-tool.mappings": {
+    "~": "${folder}/app"
+  },
+  "path-autocomplete.pathMappings": {
+    "~/": "${folder}/app/"
+  },
+  "path-autocomplete.transformations": [
+    {
+      "type": "replace",
+      "parameters": [
+        "\\.tsx$",
+        ""
+      ],
+      "when": {
+        "fileName": "\\.tsx$"
+      }
+    }
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "Classes \\=([^;]*);",
+      "'([^']*)'"
+    ],
+    [
+      "Classes \\=([^;]*);",
+      "\"([^\"]*)\""
+    ],
+    [
+      "Classes \\=([^;]*);",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "'([^']*)'"
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "cn\\(([^)]*)\\)",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=([^;]*)",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=([^;]*)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=([^;]*)",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=([^;]*)",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=([^;]*)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=([^;]*)",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=([^;]*)",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=([^;]*)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=([^;]*)",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=([^;]*)",
+      "'([^']*)'"
+    ],
+    [
+      "className\\=([^;]*)",
+      "\"([^\"]*)\""
+    ],
+    [
+      "className\\=([^;]*)",
+      "\\`([^\\`]*)\\`"
+    ],
+    [
+      "className\\=\\{([^}]*)\\}",
+      "'([^']*)'"
+    ]
+  ],
+  "editor.formatOnSave": true,
+  "css.format.enable": false,
+  "less.format.enable": false,
+  "scss.format.enable": false,
+  "html.format.enable": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "eslint.format.enable": true,
+  "javascript.preferences.organizeImports": {
+    "typeOrder": "first"
+  },
+  "npm.packageManager": "pnpm",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "files.exclude": {
+    "**/messages.js": true,
+    "**/messages/**/*.js": true,
+    "**/node_modules": true
+  },
+  "explorer.excludeGitIgnore": false,
+  "tailwindcss-intellisense.trace.server": "messages",
+  "tailwindCSS.classAttributes": [
+    "className"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.configFile": "./app/styles/app.css",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/routeTree.gen.ts": true
+  },
+    "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  }
+}
